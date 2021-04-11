@@ -6,6 +6,9 @@
   "scripts": {
     "compile:sass": "node-sass sass/main.scss css/style.css -w"
   },
+  "dependencies": {
+    "node-sass": "4.13.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JessVel/natours.git"
@@ -16,8 +19,5 @@
   "bugs": {
     "url": "https://github.com/JessVel/natours/issues"
   },
-  "homepage": "https://github.com/JessVel/natours#readme",
-  "devDependencies": {
-    "node-sass": "^5.0.0"
-  }
+  "homepage": "https://github.com/JessVel/natours#readme"
 }
